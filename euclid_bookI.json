@@ -1,0 +1,292 @@
+{
+	"BookI": [
+		{
+			"prop": "1.1",
+			"dependencies": [],
+			"text": "To construct an equilateral triangle on a given finite straight line.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI1.html"
+		},
+		{
+			"prop": "1.2",
+			"dependencies": ["1.1"],
+			"text": "To place a straight line equal to a given straight line with one end at a given point.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI2.html"
+		},
+		{
+			"prop": "1.3",
+			"dependencies": ["1.1", "1.2"],
+			"text": "To cut off from the greater of two given unequal straight lines a straight line equal to the less.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI3.html"
+		},
+		{
+			"prop": "1.4",
+			"dependencies": [],
+			"text": "If two triangles have two sides equal to two sides respectively, and have the angles contained by the equal straight lines equal, then they also have the base equal to the base, the triangle equals the triangle, and the remaining angles equal the remaining angles respectively, namely those opposite the equal sides.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI4.html"
+		},
+		{
+			"prop": "1.5",
+			"dependencies": ["1.3", "1.4"],
+			"text": "In isosceles triangles the angles at the base equal one another, and, if the equal straight lines are produced further, then the angles under the base equal one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI5.html"
+		},
+		{
+			"prop": "1.6",
+			"dependencies": ["1.3", "1.4"],
+			"text": "If in a triangle two angles equal one another, then the sides opposite the equal angles also equal one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI6.html"
+		},
+		{
+			"prop": "1.7",
+			"dependencies": ["1.5"],
+			"text": "Given two straight lines constructed from the ends of a straight line and meeting in a point, there cannot be constructed from the ends of the same straight line, and on the same side of it, two other straight lines meeting in another point and equal to the former two respectively, namely each equal to that from the same end.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI7.html"
+		},
+		{
+			"prop": "1.8",
+			"dependencies": ["1.5", "1.7"],
+			"text": "If two triangles have the two sides equal to two sides respectively, and also have the base equal to the base, then they also have the angles equal which are contained by the equal straight lines.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI8.html"
+		},
+		{
+			"prop": "1.9",
+			"dependencies": ["1.1", "1.3", "1.8"],
+			"text": "To bisect a given rectilinear angle.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI9.html"
+		},
+		{
+			"prop": "1.10",
+			"dependencies": ["1.1", "1.4", "1.9"],
+			"text": "To bisect a given finite straight line.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI10.html"
+		},
+		{
+			"prop": "1.11",
+			"dependencies": ["1.1", "1.3", "1.8"],
+			"text": "To draw a straight line at right angles to a given straight line from a given point on it.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI11.html"
+		},
+		{
+			"prop": "1.12",
+			"dependencies": ["1.8", "1.10"],
+			"text": "To draw a straight line perpendicular to a given infinite straight line from a given point not on it.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI12.html"
+		},
+		{
+			"prop": "1.13",
+			"dependencies": ["1.11"],
+			"text": "If a straight line stands on a straight line, then it makes either two right angles or angles whose sum equals two right angles.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI13.html"
+		},
+		{
+			"prop": "1.14",
+			"dependencies": ["1.11", "1.13"],
+			"text": "If with any straight line, and at a point on it, two straight lines not lying on the same side make the sum of the adjacent angles equal to two right angles, then the two straight lines are in a straight line with one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI14.html"
+		},
+		{
+			"prop": "1.15",
+			"dependencies": ["1.11", "1.13"],
+			"text": "If two straight lines cut one another, then they make the vertical angles equal to one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI15.html"
+		},
+		{
+			"prop": "1.16",
+			"dependencies": ["1.3", "1.4", "1.10", "1.15"],
+			"text": "In any triangle, if one of the sides is produced, then the exterior angle is greater than either of the interior and opposite angles",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI16.html"
+		},
+		{
+			"prop": "1.17",
+			"dependencies": ["1.13", "1.16"],
+			"text": "In any triangle the sum of any two angles is less than two right angles.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI17.html"
+		},
+		{
+			"prop": "1.18",
+			"dependencies": ["1.3", "1.5", "1.16"],
+			"text": "In any triangle the angle opposite the greater side is greater.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI18.html"
+		},
+		{
+			"prop": "1.19",
+			"dependencies": ["1.5", "1.18"],
+			"text": "In any triangle the side opposite the greater angle is greater.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI19.html"
+		},
+		{
+			"prop": "1.20",
+			"dependencies": ["1.3", "1.5", "1.19"],
+			"text": "In any triangle the sum of any two sides is greater than the remaining one.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI20.html"
+		},
+		{
+			"prop": "1.21",
+			"dependencies": ["1.16", "1.20"],
+			"text": "If from the ends of one of the sides of a triangle two straight lines are constructed meeting within the triangle, then the sum of the straight lines so constructed is less than the sum of the remaining two sides of the triangle, but the constructed straight lines contain a greater angle than the angle contained by the remaining two sides.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI21.html"
+		},
+		{
+			"prop": "1.22",
+			"dependencies": ["1.3", "1.20"],
+			"text": "To construct a triangle out of three straight lines which equal three given straight lines: thus it is necessary that the sum of any two of the straight lines should be greater than the remaining one.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI22.html"
+		},
+		{
+			"prop": "1.23",
+			"dependencies": ["1.8", "1.22"],
+			"text": "To construct a rectilinear angle equal to a given rectilinear angle on a given straight line and at a point on it.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI23.html"
+		},
+		{
+			"prop": "1.24",
+			"dependencies": ["1.3", "1.4", "1.5", "1.19", "1.23"],
+			"text": "If two triangles have two sides equal to two sides respectively, but have one of the angles contained by the equal straight lines greater than the other, then they also have the base greater than the base.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI24.html"
+		},
+		{
+			"prop": "1.25",
+			"dependencies": ["1.4", "1.24"],
+			"text": "If two triangles have two sides equal to two sides respectively, but have the base greater than the base, then they also have the one of the angles contained by the equal straight lines greater than the other.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI25.html"
+		},
+		{
+			"prop": "1.26",
+			"dependencies": ["1.3", "1.4", "1.16"],
+			"text": "If two triangles have two angles equal to two angles respectively, and one side equal to one side, namely, either the side adjoining the equal angles, or that opposite one of the equal angles, then the remaining sides equal the remaining sides and the remaining angle equals the remaining angle.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI26.html"
+		},
+		{
+			"prop": "1.27",
+			"dependencies": ["1.3", "1.4", "1.10", "1.15", "1.16"],
+			"text": "If a straight line falling on two straight lines makes the alternate angles equal to one another, then the straight lines are parallel to one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI27.html"
+		},
+		{
+			"prop": "1.28",
+			"dependencies": ["1.13", "1.15", "1.27"],
+			"text": "If a straight line falling on two straight lines makes the exterior angle equal to the interior and opposite angle on the same side, or the sum of the interior angles on the same side equal to two right angles, then the straight lines are parallel to one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI28.html"
+		},
+		{
+			"prop": "1.29",
+			"dependencies": ["1.13", "1.15", "1.27"],
+			"text": "A straight line falling on parallel straight lines makes the alternate angles equal to one another, the exterior angle equal to the interior and opposite angle, and the sum of the interior angles on the same side equal to two right angles.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI29.html"
+		},
+		{
+			"prop": "1.30",
+			"dependencies": ["1.29"],
+			"text": "Straight lines parallel to the same straight line are also parallel to one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI30.html"
+		},
+		{
+			"prop": "1.31",
+			"dependencies": ["1.23", "1.27"],
+			"text": "To draw a straight line through a given point parallel to a given straight line.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI31.html"
+		},
+		{
+			"prop": "1.32",
+			"dependencies": ["1.13", "1.29", "1.31"],
+			"text": "In any triangle, if one of the sides is produced, then the exterior angle equals the sum of the two interior and opposite angles, and the sum of the three interior angles of the triangle equals two right angles.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI32.html"
+		},
+		{
+			"prop": "1.33",
+			"dependencies": ["1.4", "1.27", "1.29"],
+			"text": "Straight lines which join the ends of equal and parallel straight lines in the same directions are themselves equal and parallel.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI33.html"
+		},
+		{
+			"prop": "1.34",
+			"dependencies": ["1.4", "1.26", "1.29"],
+			"text": "In parallelogrammic areas the opposite sides and angles equal one another, and the diameter bisects the areas.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI34.html"
+		},
+		{
+			"prop": "1.35",
+			"dependencies": ["1.4", "1.29", "1.34"],
+			"text": "Parallelograms which are on the same base and in the same parallels equal one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI35.html"
+		},
+		{
+			"prop": "1.36",
+			"dependencies": ["1.33", "1.34", "1.35"],
+			"text": "Parallelograms which are on equal bases and in the same parallels equal one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI36.html"
+		},
+		{
+			"prop": "1.37",
+			"dependencies": ["1.31", "1.34", "1.35"],
+			"text": "Triangles which are on the same base and in the same parallels equal one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI37.html"
+		},
+		{
+			"prop": "1.38",
+			"dependencies": ["1.31", "1.34", "1.36"],
+			"text": "Triangles which are on equal bases and in the same parallels equal one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI38.html"
+		},
+		{
+			"prop": "1.39",
+			"dependencies": ["1.31", "1.37"],
+			"text": "Equal triangles which are on the same base and on the same side are also in the same parallels.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI39.html"
+		},
+		{
+			"prop": "1.40",
+			"dependencies": ["1.31", "1.38"],
+			"text": "Equal triangles which are on equal bases and on the same side are also in the same parallels.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI40.html"
+		},
+		{
+			"prop": "1.41",
+			"dependencies": ["1.34", "1.37"],
+			"text": "If a parallelogram has the same base with a triangle and is in the same parallels, then the parallelogram is double the triangle.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI41.html"
+		},
+		{
+			"prop": "1.42",
+			"dependencies": ["1.10", "1.23", "1.31", "1.38", "1.41"],
+			"text": "To construct a parallelogram equal to a given triangle in a given rectilinear angle.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI42.html"
+		},
+		{
+			"prop": "1.43",
+			"dependencies": ["1.4", "1.26", "1.29", "1.34"],
+			"text": "In any parallelogram the complements of the parallelograms about the diameter equal one another.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI43.html"
+		},
+		{
+			"prop": "1.44",
+			"dependencies": ["1.15", "1.29", "1.31", "1.42", "1.43"],
+			"text": "To a given straight line in a given rectilinear angle, to apply a parallelogram equal to a given triangle.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI44.html"
+		},
+		{
+			"prop": "1.45",
+			"dependencies": ["1.14", "1.29", "1.30", "1.33", "1.34", "1.42", "1.44"],
+			"text": "To construct a parallelogram equal to a given rectilinear figure in a given rectilinear angle.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI45.html"
+		},
+		{
+			"prop": "1.46",
+			"dependencies": ["1.3", "1.11", "1.29", "1.31", "1.34"],
+			"text": "To describe a square on a given straight line.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI46.html"
+		},
+		{
+			"prop": "1.47",
+			"dependencies": ["1.4", "1.14", "1.31", "1.41", "1.46"],
+			"text": "In right-angled triangles the square on the side opposite the right angle equals the sum of the squares on the sides containing the right angle.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI47.html"
+		},
+		{
+			"prop": "1.48",
+			"dependencies": ["1.3", "1.8", "1.11", "1.47"],
+			"text": "If in a triangle the square on one of the sides equals the sum of the squares on the remaining two sides of the triangle, then the angle contained by the remaining two sides of the triangle is right.",
+			"url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI48.html"
+		}
+	]
+}
